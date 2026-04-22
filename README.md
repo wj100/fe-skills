@@ -86,48 +86,20 @@ copilot plugin install fe-skills@fe-skills-marketplace
 
 ### 方式四：OpenCode
 
-让 OpenCode 直接拉取仓库：
+直接对 OpenCode 说这句话，它会自动 clone 仓库并复制到 `~/.agents/skills/`：
 
-Tell OpenCode to fetch the repository:
+Just tell OpenCode this sentence — it will clone the repo and copy skills to `~/.agents/skills/` automatically:
 
 ```
-请从 https://github.com/wj100/fe-skills 安装 fe-skills 技能包到 ~/.agents/skills/
+全局安装这个 skill https://github.com/wj100/fe-skills
 ```
 
-## 手动安装 / Manual Installation
+如果只想装到当前项目（项目级安装）：
 
-### 克隆仓库 / Clone Repository
+For project-level install only:
 
-```bash
-git clone https://github.com/wj100/fe-skills.git
 ```
-
-### 复制到技能目录 / Copy to Skills Directory
-
-**Claude Code:**
-
-```bash
-# 安装全部 4 个技能 / Install all 4 skills
-cp -r fe-skills/skills/* ~/.claude/skills/
-```
-
-**OpenCode / Codemaker:**
-
-```bash
-# 安装到全局 skills 目录 / Install to global skills directory
-cp -r fe-skills/skills/* ~/.agents/skills/
-```
-
-**项目级安装 / Project-level Install:**
-
-```bash
-# 安装到项目目录（仅对当前项目生效）
-# Install to project directory (active only for current project)
-mkdir -p .claude/skills  # Claude Code
-cp -r fe-skills/skills/* .claude/skills/
-
-mkdir -p .agents/skills  # OpenCode
-cp -r fe-skills/skills/* .agents/skills/
+项目级安装这个 skill https://github.com/wj100/fe-skills
 ```
 
 ## 使用方式 / Usage
