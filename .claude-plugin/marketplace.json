@@ -1,0 +1,20 @@
+{
+  "name": "fe-skills-marketplace",
+  "description": "前端开发技能包发布市场 / Marketplace for fe-skills frontend engineering skill pack",
+  "owner": {
+    "name": "wj100",
+    "url": "https://github.com/wj100"
+  },
+  "plugins": [
+    {
+      "name": "fe-skills",
+      "description": "前端开发技能包：工程基建、性能优化、架构演进、质量安全",
+      "version": "0.1.0",
+      "source": "./",
+      "author": {
+        "name": "wj100",
+        "url": "https://github.com/wj100"
+      }
+    }
+  ]
+}
