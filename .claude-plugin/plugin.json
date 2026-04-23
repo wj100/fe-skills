@@ -1,7 +1,7 @@
 {
   "name": "fe-skills",
   "description": "前端开发技能包：覆盖工程基建、性能优化、架构演进、质量安全四大领域的中文前端工程化技能集合 / Chinese-language frontend engineering skill pack covering infrastructure, performance, architecture evolution, and quality assurance",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "wj100",
     "url": "https://github.com/wj100"

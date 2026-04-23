@@ -12,6 +12,7 @@
 | [fe-performance](./skills/fe-performance/) | 前端性能优化 | 懒加载、图片优化、Service Worker、首屏优化、Core Web Vitals、Bundle 瘦身 |
 | [fe-architecture](./skills/fe-architecture/) | 前端架构演进 | 框架升级、微前端、TypeScript 迁移、CSS 架构迁移 |
 | [fe-quality](./skills/fe-quality/) | 前端质量与安全 | 安全加固、错误监控、CI/CD 流水线、无障碍合规 |
+| [pm-fe-assistant](./skills/pm-fe-assistant/) | PM 前端改动助手 | 面向产品经理的非技术语言协作、最小改动原则、Git 分支保护、阶段化沟通 |
 
 **支持的技术栈 / Supported Tech Stacks:** Angular · Vue · React · Vanilla JS · Node.js
 
@@ -50,12 +51,14 @@ fe-skills/
     │       ├── typescript-migration.md # TypeScript 迁移
     │       └── css-architecture.md    # CSS 架构迁移
     └── fe-quality/
-        ├── SKILL.md
-        └── references/
-            ├── security.md           # 前端安全加固
-            ├── error-monitoring.md    # 错误监控集成
-            ├── cicd-pipeline.md       # 前端 CI/CD 流水线
-            └── accessibility.md       # 无障碍（a11y）合规
+    │   ├── SKILL.md
+    │   └── references/
+    │       ├── security.md           # 前端安全加固
+    │       ├── error-monitoring.md    # 错误监控集成
+    │       ├── cicd-pipeline.md       # 前端 CI/CD 流水线
+    │       └── accessibility.md       # 无障碍（a11y）合规
+    └── pm-fe-assistant/
+        └── SKILL.md                  # PM 前端改动助手（单文件 skill）
 ```
 
 ## 在线安装 / Online Installation
@@ -124,6 +127,9 @@ Skills trigger automatically based on conversation context. Typical trigger scen
 | "加一下 CSP 安全策略" | fe-quality |
 | "接入 Sentry 错误监控" | fe-quality |
 | "搭建前端 CI/CD 流水线" | fe-quality |
+| "把登录页的按钮改成蓝色" | pm-fe-assistant |
+| "修改首页的提示文案" | pm-fe-assistant |
+| "调整一下导航栏的间距" | pm-fe-assistant |
 
 ### 手动调用 / Manual Invocation
 
